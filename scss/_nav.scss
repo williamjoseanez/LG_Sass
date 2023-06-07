@@ -1,0 +1,103 @@
+/* BARRA NAVEGACIÓN */
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: var(--negro);
+}
+
+.mi-logo {
+    height: 50px;
+}
+
+.container-fluid {
+    --bs-gutter-x: 0;
+    }
+
+.decoracion-letras {
+    font-size: 16px;
+    font-family: var(--fuentePrincipal);
+}
+
+@media (min-width: 768px) {
+    .tamaño {
+        padding: 2rem;
+        width: 800px;
+        font-family: var(--fuentePrincipal);
+    }
+
+.logo {
+    
+    width: 500px;
+}
+
+.menu {
+        color: white;
+        padding: 1rem;
+        margin: 5px;
+        gap: 4rem;
+        text-align: justify;
+        font-size: 2rem;
+    }
+
+}
+
+ /**navegacion*/
+    /* @media (min-width: 468px) { */
+        .fondoLogo {
+            background-color: #000;
+            display:grid;
+            justify-content: center;
+
+            
+        }
+   
+    .navegacion {
+        background-color: var(--primarioOscuro);
+        padding: 1rem;
+        display: flex;
+    
+    }
+
+.color2 {
+    background-color: #d84a08;
+    padding-left: 2rem; 
+    color:var(--primarioOscuro);
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+   }
+
+   
+    /*distscion entre cajas*/
+    .separacion {
+        background-color: #000;
+    }
+    @media (min-width: 768px) {  
+        
+    .separacion {
+        /* padding: 2rem; */
+        margin-top: 2%;
+    }
+}
+    @media (min-width: 768px) {
+        .imagen {
+            padding: 20px;
+        }
+    }
+    
+    .figura {
+        width: 200px;
+    }
+
+    .btn {
+        font-size: 3rem;
+        border-radius: 2rem;
+        background-color: var(--primarioOscuro);
+        color: #000;
+        border-color: black;
+    }
+

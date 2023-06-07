@@ -1,0 +1,61 @@
+/* animaciones y transcisiones */
+
+ /* .transiccion:hover {
+    transform: translate(-10px, -50px);
+ } */
+ .fondo {
+    --bs-body-bg: #000;
+ }
+
+ .transiccion {
+    animation-name: move;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+ }
+ 
+@keyframes move {
+    0% {
+        transform: translate(5%);
+    
+    }
+
+    50% {
+        transform: translate(1%);
+     
+    }
+
+    50% {
+        transform: translate(-10%, -10%);
+        
+    }
+
+    75% {
+        transform: translate(0%, 10%);
+    
+    }
+}
+.transiccion-pulse {
+    animation: pulse infinite 1.4s alternate;
+    
+    
+}
+
+@keyframes pulse{
+    0%{
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    
+    50%{
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+    }
+    
+    100%{
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+} 

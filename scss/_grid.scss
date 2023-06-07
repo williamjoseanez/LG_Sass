@@ -1,0 +1,48 @@
+  /**Grid**/
+
+  @media (min-width: 468px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;  
+}
+    }
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+        }
+}
+/* gridExtraCArrera2023 */
+@media (min-width: 468px) {
+    .gridExtra{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+ 
+}
+    }
+
+@media (min-width: 768px) {
+    .gridExtra {
+        grid-template-columns:repeat(5, 1fr);
+        margin: 2rem;
+    }
+}
+@media (min-width: 468px) {
+    .gridExtra2 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;  
+}
+    }
+@media (min-width: 768px) {
+    .gridExtra2 {
+        grid-template-columns: repeat(3, 1fr);
+        }
+}
+.margen {
+justify-self: start;
+justify-self: center;
+justify-self: end;
+
+}

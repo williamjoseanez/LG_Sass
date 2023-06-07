@@ -1,0 +1,66 @@
+  /**Nosotros**/
+  .nosotros {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+}
+@media (min-width: 768px) {
+    .nosotros {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }    
+}
+.nosotros__imagen {
+    grid-row: 1 / 2;
+   
+}
+@media (min-width: 768px) {
+    .nosotros__imagen {
+        grid-column: 2 / 3;
+    }
+}
+/*bloques*/
+    
+.bloques {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+@media (min-width: 768px) {
+    .bloques {
+        grid-template-columns: repeat(4, 1fr);
+  
+}
+.bloque {
+    text-align: center;
+}
+
+.bloque__titulo {
+    margin: 0;
+}
+
+/* nosotros y fecha*/
+.item {
+color: #fff;
+}
+}
+
+.color {
+background-color: #d84a08;
+/* padding-left: 2%; */
+color: white;
+text-decoration:none;
+font-family: Arial, Helvetica, sans-serif;
+padding: 1%;
+}
+
+.color4 {
+    background-color: var(--negro);
+ }
+ .especial-boton {
+    display: flex;
+    text-align: center;
+    padding-left: 40%;
+    color: #fff;
+    background-color: #000;
+ }
+
