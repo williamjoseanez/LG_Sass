@@ -78,3 +78,23 @@ h5 {
     background-color: #fff;
     background-size: 2rem
 }
+// bootstrap
+[aria-label][data-balloon-pos][data-balloon-length="fit"]:after {
+    width: 100%; }
+
+    .tooltip-red {
+      --balloon-color: red;
+    }
+    
+    .tooltip-big-text {
+      --balloon-font-size: 20px;
+      background-color: #d84a08;
+    }
+    
+    .tooltip-slide {
+      --balloon-move: 30px;
+    }
+
+    .agrandarIcono{
+      font-size: 20px;
+    }
