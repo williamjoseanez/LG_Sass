@@ -10,7 +10,7 @@ html {
     /**productos**/
     
     .fotos{
-        background-color: var(--primarioOscuro);
+        background-color: $primarioOscuro;
         padding: 1rem;
     
     
@@ -31,7 +31,7 @@ html {
     
     .corredor__leyenda{
      font-size: 2.8rem;
-     color: var(--secundario);
+     color: $secundario;
     }
     
     .corredor__nombre,
@@ -45,7 +45,7 @@ html {
     @media (min-width: 468px) {
         .corredor__nombre,
         .corredor__leyenda {
-            font-family: var(--fuentePrincipal);
+            font-family: $fuentePrincipal;
             margin: 1rem 0;
             text-align: center;
             line-height: 1.2;
