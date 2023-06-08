@@ -25,7 +25,7 @@
         pDia.textContent = dia;
 
         var meses = ['enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
-        pMes,textContent = meses[mes];
+        pMes.textContent = meses[mes];
 
         pYear.textContent = year;
 
@@ -53,5 +53,6 @@
     };
 
     actualizarHora();
+    var intervalo = setInterval(actualizarHora, 1000);
 }())
 
