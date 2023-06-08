@@ -1,0 +1,40 @@
+/* reloj y fecha*/
+
+.wrap {
+    padding: 1.5rem 0 0 0;
+    text-align: center;
+
+}
+.reloj {
+    text-align: center;
+    width: 100%;
+    padding: 3rem;
+    text-align: center;
+
+    .caja-segundos {
+        display: inline-block;
+    }
+}
+
+.widget {
+    width: 100%;
+    margin: 1rem;
+
+    p {
+        display: inline-block;
+        line-height: 1em;
+        color: $primario;
+    }
+}
+.fecha {
+    text-align: center;
+    font-size: 1.5em;
+   
+}
+
+.reloj .segundos,
+.reloj .ampm {
+    display: -ms-inline-grid;
+    font-size: 1rem;
+    font-size: 1rem;
+}

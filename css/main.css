@@ -9,6 +9,44 @@
   box-sizing: inherit;
 }
 
+/* reloj y fecha*/
+.wrap {
+  padding: 1.5rem 0 0 0;
+  text-align: center;
+}
+
+.reloj {
+  text-align: center;
+  width: 100%;
+  padding: 3rem;
+  text-align: center;
+}
+.reloj .caja-segundos {
+  display: inline-block;
+}
+
+.widget {
+  width: 100%;
+  margin: 1rem;
+}
+.widget p {
+  display: inline-block;
+  line-height: 1em;
+  color: #df3f0e;
+}
+
+.fecha {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+  display: -ms-inline-grid;
+  font-size: 1rem;
+  font-size: 1rem;
+}
+
 /* BARRA NAVEGACIÓN */
 .nav-link {
   color: #fff;
