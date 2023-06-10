@@ -47,7 +47,7 @@
  /**navegacion*/
     /* @media (min-width: 468px) { */
         .fondoLogo {
-            background-color: #000;
+            background-color: $negro;
             display:grid;
             justify-content: center;
 
@@ -71,6 +71,7 @@
     text-align: center;
    }
 
+   
    
     /*distscion entre cajas*/
     .separacion {

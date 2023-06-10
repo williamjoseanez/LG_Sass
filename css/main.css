@@ -194,8 +194,8 @@ body {
 }
 
 p {
-  font-size: 1.8rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-family: "Amarante", cursive;
   color: #fff;
   justify-content: center;
   text-align: justify;
@@ -214,7 +214,7 @@ img {
   text-align: right;
   margin: 0 auto;
   line-height: 1.2;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Amaranth", cursive;
 }
 
 .contenedor {
@@ -222,7 +222,7 @@ img {
   margin: 0 auto;
 }
 
-h1, h2, h3, h5 {
+h2, h3, h5 {
   text-align: center;
   color: secundario;
   font-family: "Amaranth", cursive;
@@ -230,6 +230,9 @@ h1, h2, h3, h5 {
 
 h1 {
   font-size: 4rem;
+  font-family: "Amaranth", cursive;
+  color: #ffce00;
+  text-align: center;
 }
 
 h2 {
