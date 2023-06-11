@@ -1,0 +1,43 @@
+.container-boton {
+    background-color: #0df053;
+    border: 1px solid $blanco;
+    position:fixed;
+    z-index: 999;
+    border-radius: 50px;
+    bottom: 10px;
+    right: 15px;
+    padding: 8px;
+    transition: ease 0.3s;
+    animation: efecto 1s infinite;
+    // width: 55px; 
+    // height: 55px; 
+    // line-height: 50%; 
+    // color: $blanco;   
+    // text-align: center; 
+    // font-size: 30px; 
+    // box-shadow: 0px 1px 10px rgba(0,0,0,0.3); 
+    .boton {
+        width: 40px;
+        transition: ease .4s;
+    }
+   
+    
+}
+.container-boton:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    //  color: #0df053;
+    // text-decoration: none;
+}
+
+
+
+@keyframes efecto {
+    0% {
+        box-shadow: 0 0 0 0 rgba(209, 88, 8, 0.85);
+    }
+    100% {
+        box-shadow: 0 0 0 35px rgba(221, 133, 19, 0);
+    }
+
+}
