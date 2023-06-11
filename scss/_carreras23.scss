@@ -19,8 +19,11 @@
  }
  @media (min-width: 300px) {
 .card {
-        margin: 2rem;
-     }
+    width: 100%;
+    height: auto;
+    margin: 2rem;
+    padding: 1rem;
+    }
  }
  .card-body {
     background-image: url(../img/montanas.jpg);

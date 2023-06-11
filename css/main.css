@@ -222,7 +222,7 @@ img {
   margin: 0 auto;
 }
 
-h2, h3, h5 {
+h2, h3 {
   text-align: center;
   color: secundario;
   font-family: "Amaranth", cursive;
@@ -230,6 +230,20 @@ h2, h3, h5 {
 
 h1 {
   font-size: 4rem;
+  font-family: "Amaranth", cursive;
+  color: #ffce00;
+  text-align: center;
+}
+
+h5, h2, h3 {
+  font-size: 3.5rem;
+  font-family: "Amaranth", cursive;
+  color: #ffce00;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3rem;
   font-family: "Amaranth", cursive;
   color: #ffce00;
   text-align: center;
@@ -494,7 +508,10 @@ h5 {
 
 @media (min-width: 300px) {
   .card {
+    width: 100%;
+    height: auto;
     margin: 2rem;
+    padding: 1rem;
   }
 }
 .card-body {
