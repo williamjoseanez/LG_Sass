@@ -371,12 +371,22 @@ h5 {
   .moviendo {
     margin-left: 10%;
   }
+  .figura {
+    padding: 1rem;
+  }
 }
 @media (min-width: 468px) {
+  .figura {
+    padding: 1rem;
+  }
   .moviendo {
     margin-left: 10%;
   }
 }
+.figura {
+  padding: 2rem;
+}
+
 /**Nosotros**/
 .nosotros {
   display: grid;
@@ -508,10 +518,15 @@ h5 {
 
 @media (min-width: 300px) {
   .card {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 2rem;
     padding: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    width: 90%;
   }
 }
 .card-body {
