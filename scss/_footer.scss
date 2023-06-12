@@ -10,11 +10,15 @@
         font-family: $fuentePrincipal;
         font-size: 2.2rem;
         background-color: $primarioOscuro;
+        border-radius: 2rem;
     
         
-    }
-    
+    } 
 }
+.footer_color {
+    background-color: black;
+    color: black;
+    }  
 // .footer__texto {
 //     text-align: center;
 //     font-family: $fuentePrincipal;

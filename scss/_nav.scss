@@ -72,16 +72,22 @@
 
    
    
-    /*distscion entre cajas*/
+    /*distinción entre cajas*/
     .separacion {
         background-color: #000;
     }
     @media (min-width: 768px) {  
         
     .separacion {
-        /* padding: 2rem; */
+        padding: 2rem; 
         margin-top: 2%;
     }
+}
+@media (min-width: 300px) { 
+.separacion1 {
+    padding: 2rem; 
+    margin-top: 2%;
+}
 }
     @media (min-width: 768px) {
         .imagen {

@@ -73,14 +73,20 @@
   text-align: center;
 }
 
-/*distscion entre cajas*/
+/*distinción entre cajas*/
 .separacion {
   background-color: #000;
 }
 
 @media (min-width: 768px) {
   .separacion {
-    /* padding: 2rem; */
+    padding: 2rem;
+    margin-top: 2%;
+  }
+}
+@media (min-width: 300px) {
+  .separacion1 {
+    padding: 2rem;
     margin-top: 2%;
   }
 }
@@ -224,8 +230,16 @@ img {
 
 h2, h3 {
   text-align: center;
-  color: secundario;
+  color: #ffce00;
   font-family: "Amaranth", cursive;
+}
+
+h6 {
+  text-align: center;
+  color: #000;
+  font-family: "Amaranth", cursive;
+  font-size: 2.4rem;
+  font-weight: 800;
 }
 
 h1 {
@@ -598,6 +612,12 @@ h5 {
   font-family: "Amaranth", cursive;
   font-size: 2.2rem;
   background-color: #d84a08;
+  border-radius: 2rem;
+}
+
+.footer_color {
+  background-color: black;
+  color: black;
 }
 
 @media (min-width: 468px) {
