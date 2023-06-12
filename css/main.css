@@ -518,15 +518,10 @@ h5 {
 
 @media (min-width: 300px) {
   .card {
-    width: 90%;
+    width: auto;
     height: auto;
-    margin: 2rem;
+    margin: 6.5rem;
     padding: 1rem;
-  }
-}
-@media (min-width: 768px) {
-  .card {
-    width: 90%;
   }
 }
 .card-body {
