@@ -25,6 +25,14 @@
     padding: 1rem;
     }
  }
+ @media (min-width: 768px) {
+    .card {
+        width: auto;
+        height: auto;
+        margin: 6.5rem;
+        padding: 1rem;
+        }
+     }
 
 
 
