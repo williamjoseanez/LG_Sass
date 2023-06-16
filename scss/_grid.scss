@@ -1,12 +1,5 @@
   /**Grid**/
 
-  @media (min-width: 768px) {
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;  
-}
-    }
   @media (min-width: 468px) {
     .grid {
         display: grid;
@@ -35,20 +28,13 @@
         margin: 2rem;
     }
 }
-@media (min-width: 300px) {
+@media (min-width: 468px) {
     .gridExtra2 {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 2rem;  
 }
     }
-    @media (min-width: 768px) {
-        .gridExtra2 {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 2rem;  
-    }
-        }
 @media (min-width: 768px) {
     .gridExtra2 {
         grid-template-columns: repeat(3, 1fr);

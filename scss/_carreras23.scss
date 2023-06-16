@@ -24,18 +24,7 @@
     margin: 6.5rem;
     padding: 1rem;
     }
- }
- @media (min-width: 768px) {
-    .card {
-        width: auto;
-        height: auto;
-        margin: 6.5rem;
-        padding: 1rem;
-        }
-     }
-
-
-
+ 
 
  .card-body {
     background-image: url(../img/montanas.jpg);
@@ -46,6 +35,19 @@
     text-decoration: dotted;
     background-attachment: fixed;
  }
+ }
+
+ @media (min-width: 768px) {
+ .card-body {
+    background-image: url(../img/montanas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $blanco;
+    text-align: center;
+    text-decoration: dotted;
+    background-attachment: fixed;
+ }
+}
  .list-group-item {
     text-align: center;
  }

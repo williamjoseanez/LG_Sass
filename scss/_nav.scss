@@ -21,6 +21,13 @@
     font-family: $fuentePrincipal;
 }
 
+// @media (min-width: 300px) {
+//     .tamaño {
+//         padding: 2rem;
+//         width: 800px;
+//         font-family: $fuentePrincipal;
+//     }
+// }
 @media (min-width: 768px) {
     .tamaño {
         padding: 2rem;
@@ -43,7 +50,7 @@
     }
 
 }
- /**navegacion*/
+ /**navegación*/
     /* @media (min-width: 468px) { */
         .fondoLogo {
             background-color: $negro;
@@ -53,7 +60,7 @@
             
         }
    
-    .navegacion {
+.navegacion {
         background-color: $primarioOscuro;
         padding: 1rem;
         display: flex;
