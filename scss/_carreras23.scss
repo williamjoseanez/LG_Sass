@@ -17,6 +17,8 @@
     box-shadow: 5px 5px 20px rgba(212, 133, 29, 0.808);
         transform: translateY(-3%);
  }
+
+
  @media (min-width: 300px) {
 .card {
     width: auto;
@@ -34,6 +36,7 @@
     text-align: center;
     text-decoration: dotted;
     background-attachment: fixed;
+
  }
  }
 
@@ -48,7 +51,5 @@
     background-attachment: fixed;
  }
 }
- .list-group-item {
-    text-align: center;
- }
+
  

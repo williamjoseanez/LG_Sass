@@ -337,8 +337,10 @@ h5 {
 }
 @media (min-width: 768px) {
   .gridExtra {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin: 2rem;
+    width: 100%;
+    right: auto;
   }
 }
 @media (min-width: 468px) {
@@ -558,10 +560,6 @@ h5 {
     background-attachment: fixed;
   }
 }
-.list-group-item {
-  text-align: center;
-}
-
 /* animaciones y transcisiones */
 /* .transiccion:hover {
    transform: translate(-10px, -50px);
