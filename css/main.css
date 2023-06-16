@@ -141,11 +141,17 @@ html {
 .fotos {
   background-color: #d84a08;
   padding: 1rem;
+  margin-bottom: 2rem;
 }
 
+@media (min-width: 468px) {
+  .fotos {
+    margin-bottom: 2rem;
+  }
+}
 /* @media (min-width: 468px) {
 
-
+// 
 .corredor__imagen .fotos{
     visibility:unset;
 
