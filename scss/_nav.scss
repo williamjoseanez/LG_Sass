@@ -21,13 +21,7 @@
     font-family: $fuentePrincipal;
 }
 
-// @media (min-width: 300px) {
-//     .tamaño {
-//         padding: 2rem;
-//         width: 800px;
-//         font-family: $fuentePrincipal;
-//     }
-// }
+
 @media (min-width: 768px) {
     .tamaño {
         padding: 2rem;
@@ -121,15 +115,18 @@
     color: #d84a08;
 }
 .navbar-brand {
+    display: grid;
     margin-left: 20rem;
     color: #d84a08;
+    justify-content: center;
   
 }
 .tamanio {
     font-size: 2rem;
+
 }
 .tamanio:hover {
-    color: white;
+    color: rgb(231, 41, 41);
 }
 
 .navbar {

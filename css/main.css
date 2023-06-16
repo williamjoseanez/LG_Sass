@@ -115,8 +115,10 @@
 }
 
 .navbar-brand {
+  display: grid;
   margin-left: 20rem;
   color: #d84a08;
+  justify-content: center;
 }
 
 .tamanio {
@@ -124,7 +126,7 @@
 }
 
 .tamanio:hover {
-  color: white;
+  color: rgb(231, 41, 41);
 }
 
 .navbar {
