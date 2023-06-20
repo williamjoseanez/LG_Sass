@@ -544,13 +544,22 @@ h5 {
   transform: translateY(-3%);
 }
 
-@media (min-width: 300px) {
+.card {
+  width: auto;
+  height: auto;
+  margin: 1rem;
+  padding: 1rem 0;
+}
+
+@media (min-width: 768px) {
   .card {
     width: auto;
     height: auto;
-    margin: 6.5rem;
-    padding: 1rem;
+    margin: 8rem;
+    padding: 1rem 0;
   }
+}
+@media (min-width: 300px) {
   .card-body {
     background-image: url(../img/montanas.jpg);
     background-repeat: no-repeat;
