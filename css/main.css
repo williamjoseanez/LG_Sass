@@ -133,14 +133,6 @@
   background-color: #d84a08;
 }
 
-.logo2 {
-  width: 100px;
-}
-
-h2:hover {
-  color: rgba(230, 40, 15, 0.801);
-}
-
 /*galeria*/
 html {
   box-sizing: border-box;
