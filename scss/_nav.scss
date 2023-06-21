@@ -77,7 +77,15 @@
     .separacion {
         background-color: #000;
     }
-    @media (min-width: 768px) {  
+    
+@media (min-width: 300px) {  
+        
+        .separacion {
+            padding: 2rem; 
+            margin-top: 2%;
+        }
+    }
+@media (min-width: 768px) {  
         
     .separacion {
         padding: 2rem; 
@@ -136,5 +144,20 @@
 // navegacion especial
 
 
+.logo2 {
+        width: 50px;
+       margin: 10px;
+       background-color: $negro;
+       border-radius: 5%;
+       padding: 1rem;
+}
 
-
+@media (min-width: 300px) {
+    .logo2 {
+        width: 150px;
+       margin: 10px;
+       background-color: $negro;
+       border-radius: 5%;
+       padding: 1rem;
+}
+}

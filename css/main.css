@@ -78,6 +78,12 @@
   background-color: #000;
 }
 
+@media (min-width: 300px) {
+  .separacion {
+    padding: 2rem;
+    margin-top: 2%;
+  }
+}
 @media (min-width: 768px) {
   .separacion {
     padding: 2rem;
@@ -133,6 +139,23 @@
   background-color: #d84a08;
 }
 
+.logo2 {
+  width: 50px;
+  margin: 10px;
+  background-color: #000;
+  border-radius: 5%;
+  padding: 1rem;
+}
+
+@media (min-width: 300px) {
+  .logo2 {
+    width: 150px;
+    margin: 10px;
+    background-color: #000;
+    border-radius: 5%;
+    padding: 1rem;
+  }
+}
 /*galeria*/
 html {
   box-sizing: border-box;
@@ -194,6 +217,14 @@ h1, h2, h4 {
   h1, h2, h4 {
     font-size: 1.6rem;
     font-family: "Amaranth", cursive;
+    padding: 2rem;
+  }
+}
+@media (min-width: 300px) {
+  h1, h2, h4 {
+    font-size: 1.6rem;
+    font-family: "Amaranth", cursive;
+    padding: 2rem;
   }
 }
 body {
