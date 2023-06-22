@@ -440,11 +440,13 @@ h5 {
   }
   .figura {
     padding: 1rem;
+    width: 100px;
   }
 }
 @media (min-width: 468px) {
   .figura {
     padding: 1rem;
+    width: 100px;
   }
   .moviendo {
     margin-left: 10%;
@@ -452,6 +454,7 @@ h5 {
 }
 .figura {
   padding: 2rem;
+  width: 100px;
 }
 
 /**Nosotros**/
