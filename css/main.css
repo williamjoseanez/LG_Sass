@@ -156,6 +156,10 @@
     padding: 1rem;
   }
 }
+.icono-nav {
+  width: 35px;
+}
+
 /*galeria*/
 html {
   box-sizing: border-box;
