@@ -150,7 +150,7 @@
 
 @media (min-width: 300px) {
     .logo2 {
-        width: 110px;
+        width: 80px;
        margin: 10px;
        background-color: $negro;
        border-radius: 5%;
@@ -159,5 +159,15 @@
 }
 
 .icono-nav {
-    width: 35px;
+    width: 30px;
+}
+
+.centrando-nav {
+    display: flex;
+    justify-content: center;
+    background-color: $negro;
+    border-radius: 10%;
+}
+.color-menu {
+    color: #000;
 }
