@@ -708,6 +708,10 @@ h5 {
     background-color: #d84a08;
   }
 }
+.separacion-footer {
+  padding: 1rem;
+}
+
 .container-boton {
   background-color: #0df053;
   border: 1px solid #fff;
