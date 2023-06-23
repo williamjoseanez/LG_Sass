@@ -32,11 +32,6 @@
 }
 
 @media (min-width: 768px) {
-  .tamaño {
-    padding: 2rem;
-    width: 800px;
-    font-family: "Amaranth", cursive;
-  }
   .logo {
     width: 500px;
   }
@@ -158,6 +153,17 @@
 }
 .icono-nav {
   width: 35px;
+}
+
+@media (min-width: 768px) {
+  .tamaño {
+    padding: 1rem;
+    width: 820px;
+    font-family: "Amaranth", cursive;
+  }
+}
+.tamanio-card-index {
+  width: 300px;
 }
 
 /*galeria*/
@@ -521,6 +527,11 @@ h5 {
   background-color: #000;
 }
 
+.personalizada {
+  margin-top: 7rem;
+  border-radius: 20%;
+}
+
 /* formulario */
 @media (min-width: 350px) {
   .containerFormulario {
@@ -595,10 +606,9 @@ h5 {
 
 @media (min-width: 768px) {
   .card {
-    width: auto;
+    width: 200px;
     height: auto;
-    margin: 8rem;
-    padding: 1rem 0;
+    margin: 1rem;
   }
 }
 @media (min-width: 300px) {
