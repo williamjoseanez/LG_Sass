@@ -9,7 +9,7 @@ En este proyecto estare trabajando bajo los fundamentos de HTML5 Y CSS, sus herr
 
 </br >
 
-## **🔎 ¿QUÉ Contenido Presentare?**
+## **🔎 ¿QUÉ CONTENIDO PRESENTARE?**
 
 Durante el curso aprendi a usar las principales herramientas en html5 y css.
 
@@ -55,5 +55,7 @@ Mi resultado final, una pagina Web totalmente responsive y con graficos y dise#o
 
 Aprendi el uso correcto de las diferentes librerias, a buscar y emplear las fuentes y colores, bajar de calidad imagenes para hacer menos pesado el archivo general entre muchas otras cosas mas.
 
+AL FINAL DEL CURSO PUDE SUBIR MI PAGINA A HOSTINGER HACIENDO USO DE MI DOMINIO PERSONAL PARA ALOJAR LA PAGINA WEB.
 
+WWW.PROPERTYGD.COM
 
