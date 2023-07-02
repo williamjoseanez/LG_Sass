@@ -240,12 +240,20 @@ h1, h2, h4 {
     font-family: "Amaranth", cursive;
     padding: 2rem;
   }
+  iframe {
+    max-width: 100%;
+    height: auto;
+  }
 }
 @media (min-width: 300px) {
   h1, h2, h4 {
     font-size: 1.6rem;
     font-family: "Amaranth", cursive;
     padding: 2rem;
+  }
+  iframe {
+    max-width: 100%;
+    height: auto;
   }
 }
 body {
@@ -369,8 +377,13 @@ h5 {
 }
 
 .mapas {
-  padding: 1rem;
-  margin-top: 2em !important;
+  left: 300px;
+  padding: 10rem;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
 }
 
 /**header**/

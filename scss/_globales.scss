@@ -10,6 +10,10 @@
         font-family: $fuentePrincipal;
         padding: 2rem;
     }
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
     
 }
 
@@ -18,6 +22,10 @@
         font-size: 1.6rem;
         font-family: $fuentePrincipal;
         padding: 2rem;
+    }
+    iframe {
+        max-width: 100%;
+        height: auto;
     }
     
     
@@ -29,6 +37,7 @@ body {
     background-color: #000;
    
 }
+
 
 .margenes {
     padding: 1rem;
@@ -143,5 +152,14 @@ h5 {
     }
 //  mapas
 .mapas {
-    padding: 1rem;
-margin-top: 2em !important;}
+    left: 300px;
+    padding: 10rem;
+}
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenido {
+  
+}
